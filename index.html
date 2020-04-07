@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Potatohead Positioning Exercise by Chad McClure</title>
+
+<style>
+body {
+	background-color:#BDBEC1;
+	overflow: hidden;
+}
+		
+#wrapper {
+	position: relative;
+	margin: 0px auto;
+	height: 768px;
+	width: 1024px;
+	border-style: dotted solid;
+	padding: 20px;
+}
+		
+#potato  {
+	position: absolute;
+	left: 350px;
+	top: 400px;
+	z-index: 1;
+}
+
+#hat {
+	position: absolute;
+	top: 350px;
+	left: 385px;
+	z-index: 50;
+}		
+
+#arms {
+	position: absolute;
+	left: 175px;
+	top: 580px;
+	z-index: 2;
+}
+
+#ears {
+	position: absolute;
+	left: 335px;
+	top: 450px;
+	z-index: 2;
+}
+
+#eyes {
+	position: absolute;
+	left: 415px;
+	top: 470px;
+	z-index: 2;
+}
+
+#mouth {
+	position: absolute;
+	top: 620px;
+	left: 420px;
+	z-index: 2;
+}
+
+#mustache {
+	position: absolute;	
+	top: 600px;
+	left: 385px;
+	z-index: 2;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+}
+
+#nose {
+	position: absolute;
+	top: 550px;
+	left: 420px;
+	z-index: 3;
+}
+
+#shoes {
+	position: absolute;
+	top: 760px;
+	left: 340px;
+	z-index: 0;
+}
+
+</style>
+
+
+</head>
+<body>
+	<div id="wrapper">
+
+			<img src="images/body.png" id="potato"/>
+		
+			<img src="images/arms.png" id="arms" />
+		
+			<img src="images/ears.png" id="ears" />
+	
+			<img src="images/eyes.png" id="eyes" />
+	
+			<img src="images/hat.png" id="hat" />
+	
+			<img src="images/mouth.png" id="mouth" />
+	
+			<img src="images/mustache.png" id="mustache" />
+	
+			<img src="images/nose.png"id="nose" />
+	
+			<img src="images/shoes.png" id="shoes" />
+		
+	<div><!--end wrapper--> 
+</body>
+</html>
